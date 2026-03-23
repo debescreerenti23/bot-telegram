@@ -4,9 +4,9 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 
 # --- CONFIGURACIÓN ---
-TOKEN = "" # Recuerda usar el nuevo si hiciste /revoke
+TOKEN = "" 
 
-USUARIOS_VIP = ["javilindjjj", "usuario2"]
+USUARIOS_VIP = ["user1", "usuario2"]
 
 FRASES_VIP = [
     "¡Menudos ladrones los compra-árbitros del VarCelona!",
